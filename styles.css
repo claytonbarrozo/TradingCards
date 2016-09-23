@@ -1,0 +1,44 @@
+/* add your CSS here */
+* {
+    box-sizing: border-box;
+}
+
+h3 {
+    padding: 10px;
+    margin: 0;
+}
+
+img {
+    display: block; /*this is the only thing I can do to align the image with the div below it*/
+    margin: 10px auto 10px;
+    width: 300px;
+    height: 200px;
+  
+}
+
+ul {
+    list-style-type: none;
+    padding: 0; /*to make the bold list items align with the other paragraphs*/
+}
+
+ul li span {
+    font-weight: bold;
+}
+
+#fact {
+    font-style: italic;
+}
+
+.container1 {
+    margin: auto;
+    border: solid 1px black;
+    max-width: 300px;
+    padding: 5px 5px;
+}
+
+.container2 {
+    margin: auto;
+    border: solid 1px black;
+    max-width: 350px;
+    padding: 15px 15px;
+}
